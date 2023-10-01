@@ -10,4 +10,8 @@ public class LoginTest {
 		System.out.println("login into app");
 
 	}
+	@Test
+	public void logout() {
+		System.out.println("logout of the app");
+	}
 }
