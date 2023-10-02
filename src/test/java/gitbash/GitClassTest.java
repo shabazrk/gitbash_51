@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class GitClassTest {
 WebDriver driver;
 	@Test(alwaysRun = true)
-	@Parameters("BROWSER")
+
 	public void main(String BROWSER) {
 		System.out.println("1st test case");
 		driver = new ChromeDriver();
