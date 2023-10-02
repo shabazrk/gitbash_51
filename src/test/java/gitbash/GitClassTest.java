@@ -8,7 +8,7 @@ public class GitClassTest {
 WebDriver driver;
 	@Test(alwaysRun = true)
 
-	public void main(String BROWSER) {
+	public void main() {
 		System.out.println("1st test case");
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
